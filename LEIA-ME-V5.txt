@@ -1,0 +1,25 @@
+ACJ PRIME V5 — VISUAL APROVADO
+
+Esta versão transforma o visual aprovado em código real.
+
+Principais ajustes:
+- cabeçalho branco, logo grande e navegação muito legível;
+- CTA dourado "Explorar imóveis";
+- hero com fotografia arquitetônica fake;
+- portfólio escuro com linhas grandes, textos legíveis e miniaturas de imóveis;
+- imagens demonstrativas via data.js / Unsplash;
+- páginas internas no mesmo padrão;
+- estrutura pronta para depois trocar as imagens e dados pelo Supabase.
+
+ARQUIVOS PARA SUBIR NO GITHUB:
+index.html
+imoveis.html
+empreendimento.html
+contato.html
+style.css
+script.js
+data.js
+config.js
+logo-acj-prime.png
+
+Não há Supabase nesta versão ainda.
