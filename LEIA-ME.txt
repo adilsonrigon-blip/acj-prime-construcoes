@@ -1,0 +1,25 @@
+ACJ PRIME CONSTRUÇÕES — V1
+
+Arquivos:
+- index.html: Home premium e comercial.
+- imoveis.html: catálogo de imóveis com filtros.
+- empreendimento.html: página-base do imóvel/projeto.
+- contato.html: canal comercial.
+- style.css: identidade visual preto/grafite/dourado.
+- script.js: animações, filtros, máscara de telefone e formulários.
+- config.js: WhatsApp/e-mail da empresa.
+- logo-acj-prime.png: logo enviado.
+
+IMPORTANTE:
+Os imóveis, nomes e preços desta V1 são DEMONSTRATIVOS.
+As imagens são referências externas de arquitetura usadas no protótipo.
+
+Configure config.js:
+whatsapp: "5511999999999"
+email: "contato@seudominio.com.br"
+
+Para testar:
+Abra index.html no navegador.
+
+Para publicar:
+GitHub Pages, Cloudflare Pages, Netlify ou outro host estático.
