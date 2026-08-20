@@ -1,0 +1,25 @@
+ACJ PRIME V4 — CINEMATIC EXPERIENCE
+
+Reconstrução visual inspirada nos princípios observados nas referências fornecidas:
+- narrativa em cenas;
+- fotografia em grande escala;
+- tipografia sans-serif de alto impacto;
+- navegação mínima;
+- menos cards e caixas;
+- imóveis apresentados como produto;
+- transições sutis;
+- preto/branco como base e dourado apenas como assinatura.
+
+Os imóveis e imagens continuam demonstrativos.
+config.js e data.js foram preservados para a futura integração com Supabase.
+
+SUBA/ATUALIZE NO GITHUB:
+index.html
+imoveis.html
+empreendimento.html
+contato.html
+style.css
+script.js
+config.js
+data.js
+logo-acj-prime.png
