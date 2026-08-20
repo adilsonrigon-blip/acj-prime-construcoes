@@ -1,0 +1,28 @@
+ACJ PRIME CONSTRUÇÕES — V2 PREMIUM
+
+Esta versão substitui visualmente a V1.
+
+Principais mudanças:
+- Logo muito maior e com presença real no cabeçalho.
+- Hero premium com fotografia arquitetônica e contraste melhor.
+- Tipografia e espaçamento mais sofisticados.
+- Home reorganizada com foco comercial.
+- Portfólio dividido por estágio.
+- Cards de imóveis maiores e mais elegantes.
+- Página de empreendimento com galeria e progresso da obra.
+- Canal para oferecer terreno, vender imóvel ou propor parceria.
+- Estrutura preparada para WhatsApp e futura integração com Supabase.
+- Sem números institucionais inventados.
+
+ARQUIVOS PARA SUBIR NO GITHUB:
+index.html
+imoveis.html
+empreendimento.html
+contato.html
+style.css
+script.js
+config.js
+data.js
+logo-acj-prime.png
+
+Os imóveis ainda são demonstrativos. Na próxima etapa, substituiremos data.js pelo Supabase.
