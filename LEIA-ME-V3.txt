@@ -1,0 +1,34 @@
+ACJ PRIME CONSTRUÇÕES — V3 PREMIUM / CONTRASTE
+
+Objetivo desta versão:
+Corrigir legibilidade, contraste e presença visual da marca.
+
+Principais mudanças:
+- Cabeçalho branco premium com textos pretos de alto contraste.
+- Logo muito maior e sem fundo fotográfico competindo com a marca.
+- Hero mantido escuro, mas com contraste controlado e texto branco puro.
+- Dourado usado somente como destaque, não como cor de texto principal.
+- Textos de todas as seções com contraste mais alto.
+- Cards de imóveis mais legíveis.
+- Formulários escuros com campos e placeholders mais visíveis.
+- Rodapé com logo em base branca para preservar leitura da marca.
+- Melhor adaptação para tablet e celular.
+- Nenhuma mudança de banco ou Supabase nesta versão.
+
+PARA SUBIR NO GITHUB:
+Substitua:
+- index.html
+- imoveis.html
+- empreendimento.html
+- contato.html
+- style.css
+- script.js
+
+Pode manter:
+- config.js
+- data.js
+- logo-acj-prime.png
+
+Depois do Commit:
+- Aguarde o GitHub Pages atualizar.
+- Pressione Ctrl+F5.

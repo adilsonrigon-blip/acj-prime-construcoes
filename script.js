@@ -1,3 +1,4 @@
+// ACJ Prime V3 - contraste e legibilidade
 
 (() => {
   const $=(s,c=document)=>c.querySelector(s), $$=(s,c=document)=>[...c.querySelectorAll(s)];
