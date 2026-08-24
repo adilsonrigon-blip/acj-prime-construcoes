@@ -1,12 +1,64 @@
 <!doctype html><html lang="pt-BR"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Empreendimento | ACJ Prime</title><link rel="stylesheet" href="style.css?v=5"></head><body>
-<header class="header"><div class="header-inner">
-<a class="brand" href="index.html"><img src="logo-acj-prime.png" alt="ACJ Prime"></a>
-<nav class="nav"><a href="imoveis.html">Todos os imóveis</a><a href="index.html#terreno">Seu imóvel</a><a href="index.html#contato">Contato</a></nav>
-<a class="nav-cta" href="index.html#contato">Tenho interesse →</a><button class="menu">☰</button>
-</div></header>
-<section class="detail" id="detail"><div class="container detail-content"><div class="eyebrow" id="detailLoc"></div><h1 id="detailTitle"></h1><div class="detail-meta" id="detailMeta"></div></div></section>
-<section class="detail-body"><div class="container detail-grid"><div><div class="eyebrow">O projeto</div><h2>Um endereço pensado para permanecer.</h2><p id="detailDesc" style="color:#666;line-height:1.8;max-width:700px"></p></div>
-<form class="form" data-lead-form="este empreendimento"><input class="full" name="Nome" placeholder="Nome" required><input name="Telefone" placeholder="WhatsApp" required><input type="email" name="Email" placeholder="E-mail"><button class="full">Quero saber mais →</button><div class="feedback full"></div></form></div><div class="gallery" id="gallery"></div></section>
-<script src="config.js"></script><script src="data.js"></script><script src="script.js?v=5"></script></body></html>
+<title>Empreendimento | ACJ Prime Construções</title><link rel="stylesheet" href="style.css?v=6"></head><body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="ACJ Prime Construções">
+      <img src="logo-acj-prime.png" alt="ACJ Prime Construções">
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
+    <nav class="main-nav">
+      <a href="index.html#empresa">A ACJ Prime</a>
+      <a href="imoveis.html">Empreendimentos</a>
+      <a href="index.html#diferenciais">Diferenciais</a>
+      <a href="index.html#seu-imovel">Seu imóvel</a>
+      <a href="parceiros.html">Parceiros</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a class="header-cta" href="imoveis.html">Encontrar imóvel</a>
+  </div>
+</header>
+
+<main>
+<section id="detail" class="detail-hero"><div class="detail-shade"><div class="container detail-copy"><span class="eyebrow gold">EMPREENDIMENTO</span><h1 id="detailTitle">Projeto ACJ Prime</h1><p id="detailLoc"></p></div></div></section>
+<section class="section"><div class="container detail-grid">
+  <div><span class="eyebrow">O PROJETO</span><h2>Um endereço pensado para permanecer.</h2><p id="detailDesc"></p></div>
+  <div id="detailMeta" class="detail-meta"></div>
+</div></section>
+<section class="gallery-section"><div id="gallery" class="gallery-grid"></div></section>
+<section class="section-soft"><div class="container interest-grid">
+  <div><span class="eyebrow">TENHO INTERESSE</span><h2>Receba mais informações deste projeto.</h2></div>
+  <form class="lead-form" data-lead-form="este empreendimento">
+    <input name="nome" placeholder="Nome" required>
+    <input name="telefone" placeholder="WhatsApp" required>
+    <input name="email" type="email" placeholder="E-mail">
+    <button class="btn btn-navy" type="submit">Quero saber mais</button>
+    <div class="feedback"></div>
+  </form>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-logo" src="logo-acj-prime.png" alt="ACJ Prime Construções">
+      <p>Projetos pensados para morar bem, investir melhor e construir valor ao longo do tempo.</p>
+    </div>
+    <div>
+      <strong>ACJ Prime</strong>
+      <a href="index.html#empresa">A empresa</a>
+      <a href="imoveis.html">Empreendimentos</a>
+      <a href="parceiros.html">Seja parceiro</a>
+    </div>
+    <div>
+      <strong>Negócios</strong>
+      <a href="index.html#seu-imovel">Ofereça seu imóvel</a>
+      <a href="contato.html">Fale conosco</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 ACJ Prime Construções</span>
+    <span>São Paulo · Brasil</span>
+  </div>
+</footer>
+<script src="config.js"></script><script src="data.js"></script><script src="script.js?v=6"></script></body></html>

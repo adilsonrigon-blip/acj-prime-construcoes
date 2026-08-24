@@ -1,14 +1,58 @@
 <!doctype html><html lang="pt-BR"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Imóveis | ACJ Prime</title><link rel="stylesheet" href="style.css?v=5"></head><body>
-<header class="header"><div class="header-inner">
-<a class="brand" href="index.html"><img src="logo-acj-prime.png" alt="ACJ Prime"></a>
-<nav class="nav"><a href="index.html">Home</a><a class="active" href="imoveis.html">Imóveis</a><a href="index.html#terreno">Seu imóvel</a><a href="index.html#contato">Contato</a></nav>
-<a class="nav-cta" href="index.html#contato">Fale conosco →</a><button class="menu">☰</button>
-</div></header>
-<section class="page-head"><div class="container"><div class="eyebrow">Portfólio ACJ Prime</div><h1>Encontre seu<br>próximo endereço.</h1><p>Prontos para morar e projetos em desenvolvimento, com informações claras e visualização completa.</p></div></section>
-<section class="portfolio-wrap" style="padding-top:50px"><div class="container"><div class="filters">
-<select id="status"><option value="">Todos os estágios</option><option>Pronto</option><option>Em obras</option></select>
-<select id="type"><option value="">Todos os tipos</option><option>Apartamento</option><option>Sobrado</option><option>Studio</option></select>
-</div><div class="cards" id="cards"></div></div></section>
-<script src="config.js"></script><script src="data.js"></script><script src="script.js?v=5"></script></body></html>
+<title>Empreendimentos | ACJ Prime Construções</title>
+<meta name="description" content="Conheça os imóveis prontos e os projetos em desenvolvimento da ACJ Prime Construções.">
+<link rel="stylesheet" href="style.css?v=6"></head><body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="ACJ Prime Construções">
+      <img src="logo-acj-prime.png" alt="ACJ Prime Construções">
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">Menu</button>
+    <nav class="main-nav">
+      <a href="index.html#empresa">A ACJ Prime</a>
+      <a href="imoveis.html">Empreendimentos</a>
+      <a href="index.html#diferenciais">Diferenciais</a>
+      <a href="index.html#seu-imovel">Seu imóvel</a>
+      <a href="parceiros.html">Parceiros</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a class="header-cta" href="imoveis.html">Encontrar imóvel</a>
+  </div>
+</header>
+
+<main class="page-main">
+<section class="page-hero"><div class="container"><span class="eyebrow">EMPREENDIMENTOS</span><h1>Encontre um endereço para o seu próximo capítulo.</h1><p>Imóveis prontos e projetos em desenvolvimento apresentados com clareza, imagens e informações essenciais.</p></div></section>
+<section class="section"><div class="container">
+  <div class="filters">
+    <select id="status"><option value="">Todos os status</option><option>Pronto</option><option>Em obras</option></select>
+    <select id="type"><option value="">Todos os tipos</option><option>Apartamento</option><option>Sobrado</option><option>Studio</option></select>
+  </div>
+  <div id="cards" class="property-grid"></div>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-logo" src="logo-acj-prime.png" alt="ACJ Prime Construções">
+      <p>Projetos pensados para morar bem, investir melhor e construir valor ao longo do tempo.</p>
+    </div>
+    <div>
+      <strong>ACJ Prime</strong>
+      <a href="index.html#empresa">A empresa</a>
+      <a href="imoveis.html">Empreendimentos</a>
+      <a href="parceiros.html">Seja parceiro</a>
+    </div>
+    <div>
+      <strong>Negócios</strong>
+      <a href="index.html#seu-imovel">Ofereça seu imóvel</a>
+      <a href="contato.html">Fale conosco</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 ACJ Prime Construções</span>
+    <span>São Paulo · Brasil</span>
+  </div>
+</footer>
+<script src="config.js"></script><script src="data.js"></script><script src="script.js?v=6"></script></body></html>

@@ -1,0 +1,33 @@
+ACJ PRIME CONSTRUÇÕES — V6
+
+NOVIDADES
+- Identidade visual clara: branco, azul-marinho e dourado do novo logo.
+- Home redesenhada com linguagem de alto padrão.
+- Página Parceiros com cadastro de interesse.
+- Upload opcional de imagem, logo, portfólio ou PDF.
+- Banco Supabase para empreendimentos, imagens, parceiros e leads.
+- Supabase Storage privado para anexos de parceiros.
+- Empreendimentos são carregados do banco quando configurado; data.js é fallback.
+- Imagens demonstrativas usam URLs do Unsplash e podem ser trocadas no banco.
+
+CONFIGURAÇÃO
+1. Crie um projeto no Supabase.
+2. Execute supabase-acj-prime-v6.sql no SQL Editor.
+3. Abra config.js e informe SUPABASE_URL e SUPABASE_ANON_KEY.
+4. Suba os arquivos no GitHub Pages.
+
+BANCO
+- acj_empreendimentos
+- acj_empreendimento_imagens
+- acj_parceiros
+- acj_leads
+- Storage bucket privado: acj-parceiros
+
+IMAGENS
+As fotos atuais são demonstrativas, hospedadas no Unsplash. Para trocar imagens sem alterar o código, atualize:
+- acj_empreendimentos.imagem_capa_url
+- acj_empreendimento_imagens.url
+
+PARCEIROS
+O formulário em parceiros.html salva os dados em acj_parceiros.
+Anexos são enviados ao bucket acj-parceiros e o caminho fica em arquivo_path.
